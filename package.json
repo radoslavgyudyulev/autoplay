@@ -1,0 +1,17 @@
+{
+  "name": "autoplay",
+  "version": "1.0.0",
+  "description": "autoplay options pure JS",
+  "main": "script.js",
+  "homepage": "https://radoslavgyudyulev.github.io/autoplay",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Radoslav Gyudyulev",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^1.2.0",
+    "node-sass": "^4.9.2"
+  }
+}
